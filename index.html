@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tribal e-site</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="img/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="img/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="img/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+    </head>
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'
+    >
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px">
+            <span
+                ><a href="#home" style="display: flex; align-items: center"
+                    ><img
+                        class="img2"
+                        src="./img/mountain.png"
+                        width="40"
+                        style="margin: -25px -10px -25px -20px"
+                    />
+                    <h1 class="logo">&nbsp;ARNAV H-91 MART</h1></a
+                ></span
+            >
+            <ul class="nav-links">
+                <li>
+                    <a href="#home" id="pri" class="active cir_border">Home</a>
+                </li>
+                <li><a href="#events" id="sec" class="cir_border">Product</a></li>
+                <li>
+                    <a href="#explore" id="tri" class="cir_border">Categories</a>
+                </li>
+                <li>
+                    <a href="#tours" id="quad" class="cir_border">About</a>
+                </li>
+                <li><a href="#about" id="quint" class="cir_border">🛒 Cart (0)</a></li>
+                <li>
+                    <a href="#contribution" id="hex" class="cir_border"
+                        >Contributions</a
+                    >
+                </li>
+                <li>
+                    <a href="#contact" id="hept" class="cir_border">Contact</a>
+                </li>
+                <li>
+                    <div>
+                        <input
+                            type="checkbox"
+                            class="checkbox dark"
+                            id="checkbox"
+                        />
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class="fa fa-sun-o"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn" />
+        </nav>
+        <!--navbar-->
+
+        <header id="home">
+            <div class="header-content">
+                <h2 id="quote">From tribal hands to Urban Homes</h2>
+                <div class="line"></div>
+                <h1>"Shop Ethenic, Shop Local"</h1>
+                <a
+                    href="#about"
+                    class="ctn"
+                    onclick='removeall(); $("#quad").css("border", "2px solid whitesmoke"); $("#quad").css("border-radius", "20px");'
+                    >Learn more</a
+                >
+            </div>
+        </header>
+
+        <!--Events-->
+        <section class="events" id="events">
+            <div class="container">
+                <div class="title">
+                    <h1 class="dark">Tribal-Handicrafts</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <article class="card col">
+                        <img class="card-img" src="./img/product1.avif" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product2.avif" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product3.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product4.avif" />
+                        <h4 class="dark"> Earthen Pots</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product5.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product6.avif" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product7.avif" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product8.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product9.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product11.webp" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product12.jpg" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product13.jpg" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product14.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product15.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product16.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product17.jpg" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product18.jpg" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product19.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product20.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product21.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product22.jpg" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product23.avif" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product24.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product25.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product26.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product27.avif" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product28.avif" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product29.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product30.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product31.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product32.jpg" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product33.avif" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product34.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product35.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product36.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product37.avif" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product38.avif" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product39.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product40.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product41.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product42.avif" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product43.webp" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product44.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product45.avif" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product46.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product47.jpg" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product48.jpg" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product49.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product50.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product51.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="./img/product52.jpg" />
+                        <h4 class="dark">Carry Jute Bags</h4>
+                        <p class="font-color">
+                             "There is nothing in the world so irresistibly contagious as laughter and good humor".
+                    
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product53.jpg" />
+                        <h4 class="dark">Gimbe Drum </h4>
+                        <p class="font-color">
+                            A man Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.”
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product54.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product55.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    <article class="card col">
+                        <img src="./img/product56.jpg" />
+                        <h4 class="dark"> soapstone craft</h4>
+                        <p class="font-color">
+                            Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind.” (A Midsummer Night's Dream) 
+                        </p>
+                        <a href="#" class="ctn">All Details</a> 
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+        <!--Events-->
+
+        <!--Explore-->
+        <section class="explore" id="explore">
+            <div class="explore-content">
+                <h1>EXPLORE THE SANTHALI ART</h1>
+                <div class="line"></div>
+                <p>
+                    A truly great magazine cover surprises, even shocks, and connects in nano-second
+                </p>
+                <a href="#" class="ctn">Explore more</a>
+            </div>
+        </section>
+        <!--Explore-->
+
+        <!--tours-->
+        <section class="tours" id="tours">
+            <div class="container row">
+                <div class="col content-col">
+                    <h1 class="font-color">WHY SANTHALI PRODUCTS?</h1>
+                    <div class="line"></div>
+                    <p>
+                        Authentic, eco-friendly, handcrafted  :<br />
+                     goods that support tribal :<br />
+                 artisans and preserve unique cultural heritage.
+                        <br />
+                        and many more ......
+                    </p>
+                    <a href="#" class="ctn">Learn more</a>
+                </div>
+                <div class="image-col">
+                    <div class="image-gallery">
+                        <img src="./img/g1.jpg" alt="" />
+                        <img src="./img/g2.jpg" alt="" />
+                        <img src="./img/g3.jpg" alt="" />
+                        <img src="./img/g4.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <br /><br /><br /><br />
+        </section>
+        <!--tours-->
+
+        <!-- About -->
+        <section id="about">
+            <div class="title">
+                <h1 class="font-color">About Us</h1>
+                <div class="line"></div>
+            </div>
+            <br />
+            <div id="about_us">
+                <div class="boxx">
+                    <div class="containerx">
+                        <input type="radio" name="slider" id="item-1" checked />
+                        <input type="radio" name="slider" id="item-2" />
+                        <input type="radio" name="slider" id="item-3" />
+                        <div class="cards">
+                            <label class="cardt" for="item-1" id="col-img-1">
+                                <img src="./img/last1.avif" />
+                            </label>
+                            <label class="cardt" for="item-2" id="col-img-2">
+                                <img src="./img/last2.avif" />
+                            </label>
+                            <label class="cardt" for="item-3" id="col-img-3">
+                                <img src="./img/last3.avif" />
+                            </label>
+                            
+                        </div>
+                    </div>
+                    <span id="about-quad"
+                        ><a href="#home"
+                            ><center>
+                                <h1
+                                    style="
+                                        font-family: var(--ff-montserrat);
+                                        color: white;
+                                    "
+                                >
+                                    Generations of Craftsmanship
+                                </h1>
+                                <br />
+                                <img
+                                    class="img2"
+                                    src="./img/digital wall.jpg"
+                                    width="200"
+                                    style="border-radius: 12%"
+                                />
+                                <br />
+                                <h1 class="logo" style="font-size: 50px">
+                                    Crafted by Hand. Loved by You.
+                                </h1>
+                            </center>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+
+         <!-- Contributions -->
+        <div class="title">
+            <h1 class="font-color">Contributors</h1>
+            <div class="line"></div>
+        </div>
+        <section class="contributors" id="contribution">
+            <div class="concard">
+                <img
+                    src="https://github.com/balram-Mahato.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text"><h1>BALRAM MAHATO</h1></div>
+                    
+                </div>
+                <!-- <div class="logolink">
+                    <a href="https://github.com/balram-Mahato" target="_blank"
+                        ><img
+                            src="img/GitHub120px.png"
+                            alt="Github-Logo"
+                            class="github-logo"
+                    /></a>
+                </div> -->
+            </div>
+
+
+            <div class="concard">
+                <img
+                    src="./img/arnav.jpeg"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>ARNAV KR MAHTO</h1>
+                </div>
+                <!-- <div class="logolink">
+                    <a href="https://github.com/nandan.jpg" target="_blank"
+                        ><img
+                            src="img/github120px.png"
+                            alt="Github-Logo"
+                            class="github-logo"
+                    /></a>
+                </div> -->
+            </div>
+
+            <!-- <div class="concard">
+                <img
+                    src="./img/sonali.jpg"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Swaraj</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/prakhartiwari0" target="_blank"
+                        ><img
+                            src="img/GitHub120px.png"
+                            alt="Github-Logo"
+                            class="github-logo"
+                    /></a>
+                </div>
+            </div> -->
+
+            <div class="concard">
+                <img
+                    src="./img/sarti.jpeg"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>SARTI KUMARI</h1>
+                </div>
+                <!-- <div class="logolink">
+                    <a href="https://github.com/hassana123" target="_blank"
+                        ><img
+                            src="img/GitHub120px.png"
+                            alt="Github-Logo"
+                            class="github-logo"
+                    /></a>
+                </div> -->
+            </div>
+
+            <!-- <div class="concard">
+                <img
+                    src="./img/ritesh.jpg"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Prasant</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/RiteshChandra70" target="_blank"
+                        ><img
+                            src="img/GitHub120px.png"
+                            alt="Github-Logo"
+                            class="github-logo"
+                    /></a>
+                </div>
+            </div> -->
+
+            
+        </section>
+        <!-- Contributions -->
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="title">
+                <h1 class="font-color">Contact Us</h1>
+                <div class="line"></div>
+            </div>
+            <div class="contact_us">
+                <form class="cform" action="" method="post">
+                    <div class="crow-message">
+                        <h1 class="color">Send us a message</h1>
+                        <div></div>
+                    </div>
+                    <div class="crow-in">
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                        />
+                        <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Your Email id"
+                        />
+                    </div>
+                    <div class="crow">
+                        <div class="ccol-left">
+                            <select name="country" id="country">
+                                <option value="India">India</option>
+                                <option value="Russia">Russia</option>
+                                <option value="usa">USA</option>
+                                <option value="Japan">Japan</option>
+                                <option value="France">France</option>
+                                <option value="Brazil">Brazil</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="crow">
+                        <div class="ccol-left">
+                            <textarea
+                                type="text"
+                                id="remarks"
+                                name="remarks"
+                                placeholder="Your Remarks....."
+                                style="height: 150px"
+                            ></textarea>
+                        </div>
+                    </div>
+                    <input class="crow-s" type="submit" value="Submit" />
+                </form>
+                <div class="cbox">
+                    <div>
+                        <p class="cbox-message">
+                            Prefer some other way ?<br />Reach us by using the
+                            details given below
+                        </p>
+                        <div class="cbox-line"></div>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="mailto:abc@gmail.com"
+                            ><i class="fa fa-envelope"></i>
+                            Mail: amazingmagazine12@gmail.com
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="tel:+91-12345-67890"
+                            ><i class="fa fa-phone"></i>
+                            Phone: (+91) 9876543210
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="#"
+                            ><i class="fa fa-map-marker"></i>
+                            Location: Ramgarh,Jharkhand
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact  -->
+        <!-- up scroll -->
+        <i class="arrow"  onclick="topFunction()" id="upbtn"></i>
+        <!-- end -->
+        <!--footer-->
+        <section class="footer">
+            <span
+                >Created By Balram | &#169; 2025 IDEA TRIBE
+                </span
+            >
+            <div class="social">
+                <li>
+                    <a
+                        href="https://www.facebook.com/share/1AXkpKVNx5//"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><i class="fa fa-globe"></i
+                    ></a>
+                    <a
+                        href="https://github.com/balram-Mahato"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><i class="fa fa-github"></i
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/sonali-kumari-71a740329"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><i class="fa fa-linkedin-square"></i
+                    ></a>
+                </li>
+            </div>
+        </section>
+        <!--footer-->
+
+        <script>
+            const menuBtn = document.querySelector(".menu-btn");
+            const navlinks = document.querySelector(".nav-links");
+
+            menuBtn.addEventListener("click", () => {
+                navlinks.classList.toggle("mobile-menu");
+            });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
